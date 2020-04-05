@@ -25,5 +25,3 @@ fields:
     schema:
       format: markdown
   label: main text
-pages:
-- fried_potato.md
