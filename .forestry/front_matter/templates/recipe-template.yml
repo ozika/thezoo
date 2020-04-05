@@ -1,4 +1,27 @@
 ---
 label: recipe template
 hide_body: true
-fields: []
+fields:
+- name: recipe_title
+  type: text
+  config:
+    required: false
+  label: recipe title
+- name: short_summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: short summary
+- name: main_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: main text
