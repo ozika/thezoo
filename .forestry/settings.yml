@@ -5,10 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: ''
+  path: content/recipes
   label: Recipes
   create: all
-  match: content/recipes/**/*
+  match: "/**/*"
 - type: directory
   path: content/blog
   label: Blog
