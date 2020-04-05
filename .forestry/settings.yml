@@ -8,12 +8,7 @@ sections:
   path: ''
   label: Recipes
   create: all
-  match: "**/*"
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
+  match: content/recipes/**/*
 - type: directory
   path: content/blog
   label: Blog
